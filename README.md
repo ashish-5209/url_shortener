@@ -39,7 +39,7 @@ A simple URL shortener service implemented with FastAPI and SQLAlchemy. This ser
     DATABASE_URL_PREPROD=postgresql://preprod_user:preprod_password@localhost/preprod_dbname
     DATABASE_URL_PROD=postgresql://prod_user:prod_password@localhost/prod_dbname
 
-    SECRET_KEY=your_secret_key
+    SECRET_KEY=secret_key
     ALGORITHM=HS256
     ACCESS_TOKEN_EXPIRE_MINUTES=30
     ```
